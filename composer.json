@@ -1,0 +1,21 @@
+{
+    "name": "titasgailius/eloquent-expiration",
+    "description": "Eloquent models that can expire",
+    "keywords": ["eloquent", "expires", "expirable"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "illuminate/database": "5.6.*|5.7.*",
+        "illuminate/support": "5.6.*|5.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "TitasGailius\\EloquentExpiration\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
